@@ -1,4 +1,4 @@
-package com.itza2k.kaiflo.ui.theme
+package com.Jones270405.Aptide.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
