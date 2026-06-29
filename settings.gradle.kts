@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Kaiflo"
+rootProject.name = "Aptide" //App name
 include(":app")
  
