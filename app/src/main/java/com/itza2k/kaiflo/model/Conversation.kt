@@ -1,5 +1,5 @@
-package com.itza2k.kaiflo.model
-import com.itza2k.kaiflo.util.Category
+package com.Jones270405.Aptide.model
+import com.Jones270405.Aptide.util.Category
 import java.net.URI
 
 data class Conversation(
