@@ -4,7 +4,7 @@ package com.Jones270405.Aptide.db
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import com.itza2k.kaiflo.model.Conversation
+import com.Jones270405.Aptide.model.Conversation
 import kotlin.reflect.full.memberProperties
 
 
