@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Aptide" //App name
+rootProject.name = "Aptide"
 include(":app")
  
