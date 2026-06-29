@@ -1,4 +1,4 @@
-package com.itza2k.kaiflo.translation
+package com.Jones270405.Aptide.translation
 
 import android.util.Log
 import com.google.mlkit.common.model.DownloadConditions
