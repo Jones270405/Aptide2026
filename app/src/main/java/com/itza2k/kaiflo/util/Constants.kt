@@ -1,4 +1,4 @@
-package com.itza2k.kaiflo.util
+package com.Jones270405.Aptide.util
 
 
 object Constants {
