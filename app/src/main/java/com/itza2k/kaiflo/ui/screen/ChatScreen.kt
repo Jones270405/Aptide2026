@@ -1,4 +1,4 @@
-package com.itza2k.kaiflo.ui.screen
+package com.Jones270405.Aptide.ui.screen
 
 import android.os.Build
 import android.os.VibrationEffect
@@ -142,11 +142,11 @@ import androidx.compose.ui.unit.IntSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
-import com.itza2k.kaiflo.R
-import com.itza2k.kaiflo.model.Conversation
-import com.itza2k.kaiflo.ui.theme.AssistantTheme
-import com.itza2k.kaiflo.util.Category
-import com.itza2k.kaiflo.viewmodel.MainViewModel
+import com.Jones270405.Aptide.R
+import com.Jones270405.Aptide.model.Conversation
+import com.Jones270405.Aptide.ui.theme.AssistantTheme
+import com.Jones270405.Aptide.util.Category
+import com.Jones270405.Aptide.viewmodel.MainViewModel
 import kotlinx.coroutines.currentCoroutineContext
 import org.commonmark.node.Text as CText
 import kotlinx.coroutines.flow.collectLatest
@@ -297,7 +297,7 @@ fun SetupUI(viewModel: MainViewModel) {
                                 },
                                 title = {
                                     val title = when (currentTab) {
-                                        MainTab.Chat -> "Kaiflo"
+                                        MainTab.Chat -> "Aptide"
                                         MainTab.Explore -> "Explore"
                                         MainTab.History -> "History"
                                         MainTab.Settings -> "Settings"
@@ -1006,7 +1006,7 @@ fun ExploreTabContent(modifier: Modifier = Modifier, viewModel: MainViewModel) {
                     Text("Hands-free", style = MaterialTheme.typography.titleSmall)
                     Spacer(Modifier.height(8.dp))
                     Text(
-                        "Start speaking to Kaiflo.",
+                        "Start speaking to Aptide.",
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
@@ -1205,7 +1205,7 @@ fun SettingsTabContent(modifier: Modifier = Modifier, viewModel: MainViewModel) 
                 Text("Voice", style = MaterialTheme.typography.titleMedium)
                 Spacer(Modifier.height(8.dp))
                 Text(
-                    "Adjust speech rate in system TTS settings. Kaiflo uses system engine.",
+                    "Adjust speech rate in system TTS settings. Aptide uses system engine.",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
