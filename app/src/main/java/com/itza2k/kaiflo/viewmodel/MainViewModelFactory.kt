@@ -1,4 +1,4 @@
-package com.itza2k.kaiflo.viewmodel
+package com.Jones270405.Aptide.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
