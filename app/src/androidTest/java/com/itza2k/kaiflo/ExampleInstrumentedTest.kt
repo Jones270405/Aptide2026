@@ -1,4 +1,4 @@
-package com.itza2k.kaiflo
+package com.Jones270405.Aptide 
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.itza2k.kaiflo", appContext.packageName)
+        assertEquals("com.Jones270405.Aptide", appContext.packageName)
     }
 }
