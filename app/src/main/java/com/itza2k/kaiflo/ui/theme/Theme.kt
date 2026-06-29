@@ -1,4 +1,4 @@
-package com.itza2k.kaiflo.ui.theme
+package com.Jones270405.Aptide.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun KaifloTheme(
+fun AptideTheme(  //Kaiflo
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Force brand colors by default; allow opt-in dynamic colors if explicitly requested
     dynamicColor: Boolean = false,
