@@ -1,4 +1,4 @@
-package com.itza2k.kaiflo.viewmodel
+package com.Jones270405.Aptide.viewmodel
 
 import android.Manifest
 import android.Manifest.permission.CALL_PHONE
@@ -37,16 +37,16 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.itza2k.kaiflo.TextClassifierHelper
-import com.itza2k.kaiflo.db.DynamicConversationRepository
-import com.itza2k.kaiflo.db.SyncStateList
-import com.itza2k.kaiflo.model.Contact
-import com.itza2k.kaiflo.model.Conversation
-import com.itza2k.kaiflo.model.Group
-import com.itza2k.kaiflo.translation.TranslatorManager
-import com.itza2k.kaiflo.util.Category
-import com.itza2k.kaiflo.util.Constants.MAIN_CONTEXT
-import com.itza2k.kaiflo.util.LockState
+import com.Jones270405.Aptide.TextClassifierHelper
+import com.Jones270405.Aptide.db.DynamicConversationRepository
+import com.Jones270405.Aptide.db.SyncStateList
+import com.Jones270405.Aptide.model.Contact
+import com.Jones270405.Aptide.model.Conversation
+import com.Jones270405.Aptide.model.Group
+import com.Jones270405.Aptide.translation.TranslatorManager
+import com.Jones270405.Aptide.util.Category
+import com.Jones270405.Aptide.util.Constants.MAIN_CONTEXT
+import com.Jones270405.Aptide.util.LockState
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.LocationAvailability
 import com.google.android.gms.location.LocationCallback
