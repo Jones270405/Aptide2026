@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.itza2k.kaiflo"
+    namespace = "com.Jones270405.aptide" 
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.itza2k.kaiflo"
+        applicationId = "com.Jones270405.aptide" 
         minSdk = 28
         targetSdk = 36
         versionCode = 1
