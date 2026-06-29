@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.Jones270405.aptide" 
+    namespace = "com.Jones270405.Aptide"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.Jones270405.aptide" 
+        applicationId = "com.Jones270405.Aptide"
         minSdk = 28
         targetSdk = 36
         versionCode = 1
