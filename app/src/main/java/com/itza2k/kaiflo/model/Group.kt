@@ -1,3 +1,3 @@
-package com.itza2k.kaiflo.model
+package com.Jones270405.Aptide.model
 
 data class Group(val groupId: Long, val title: String)
