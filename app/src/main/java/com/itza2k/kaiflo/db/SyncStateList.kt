@@ -1,8 +1,8 @@
-package com.itza2k.kaiflo.db
+package com.Jones270405.Aptide.db
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.snapshots.SnapshotStateList
-import com.itza2k.kaiflo.model.Conversation
+import com.Jones270405.Aptide.model.Conversation
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
