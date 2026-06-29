@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.Jones270405.Aptide"
+    namespace = "com.Jones270405.Aptide" 
     compileSdk = 36
 
     defaultConfig {
