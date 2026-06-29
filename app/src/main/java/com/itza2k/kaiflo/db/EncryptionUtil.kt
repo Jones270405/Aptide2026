@@ -1,4 +1,4 @@
-package com.itza2k.kaiflo.db
+package com.Jones270405.Aptide.db
 
 import android.util.Base64
 import java.security.SecureRandom
