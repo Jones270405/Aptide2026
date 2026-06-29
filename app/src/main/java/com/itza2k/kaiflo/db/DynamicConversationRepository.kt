@@ -1,4 +1,4 @@
-package com.itza2k.kaiflo.db
+package com.Jones270405.Aptide.db
 
 import android.content.ContentValues
 import android.content.Context
@@ -6,8 +6,8 @@ import android.database.Cursor
 import android.text.format.DateFormat
 import android.util.Log
 import androidx.compose.runtime.snapshots.SnapshotStateList
-import com.itza2k.kaiflo.model.Conversation
-import com.itza2k.kaiflo.model.Group
+import com.Jones270405.Aptide.model.Conversation
+import com.Jones270405.Aptide.model.Group
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.net.URI
