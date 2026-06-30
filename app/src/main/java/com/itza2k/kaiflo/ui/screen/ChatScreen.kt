@@ -365,7 +365,7 @@ fun SetupUI(viewModel: MainViewModel) {
                                         }
                                     } else {
                                         // Common actions for other tabs
-                                        IconButton(onClick = { uriHandler.openUri("https://itza2k.github.io") }) {
+                                        IconButton(onClick = { uriHandler.openUri("https://Jones270405.github.io") }) {
                                             Icon(
                                                 imageVector = Icons.Filled.Info,
                                                 contentDescription = "About / Website"
@@ -721,23 +721,23 @@ fun SettingsDialog(
                 Spacer(modifier = Modifier.height(12.dp))
                 // About Developer section (non-breaking enhancement)
                 Text(
-                    text = "About Developer",
+                    text = "About Developer and Contributors",
                     style = MaterialTheme.typography.titleMedium
                 )
                 Spacer(modifier = Modifier.height(8.dp))
                 Text(
-                    text = "Developer: Akkshay SN",
+                    text = "Developer: Akkshay SN, Contributors: Joanna Satya, Prajakta Debsharma, Pawan Kumar M",
                     style = MaterialTheme.typography.bodyMedium
                 )
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
-                    text = "https://itza2k.github.io",
+                    text = "https://Jones270405.github.io",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.primary,
                     textDecoration = TextDecoration.Underline,
                     modifier = Modifier.clickable {
                         // Open portfolio in browser
-                        uriHandler.openUri("https://itza2k.github.io")
+                        uriHandler.openUri("https://Jones270405.github.io")
                     }
                 )
             }
